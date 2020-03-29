@@ -28,7 +28,7 @@
 	        	<div class="col-sm-10 col-sm-offset-1">
 	        		<div class="box">
 	        			<div class="box-header with-border">
-	        				<h3 class="box-title">TRANSACTIONES</h3>
+	        				<h3 class="box-title">TRANSACCIONES</h3>
 	        				<div class="pull-right">
 	        					<select class="form-control input-sm" id="transelect">
 	        						<option value="borrow" <?php echo ($action == '') ? 'selected' : ''; ?>>Borrow</option>

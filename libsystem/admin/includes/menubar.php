@@ -15,6 +15,8 @@
     <ul class="sidebar-menu" data-widget="tree">
       <li class="header">INFORMES</li>
       <li class=""><a href="home.php"><i class="fa fa-dashboard"></i> <span>Tablero</span></a></li>
+      <li class=""><a href="prestamos/lybsystem/index.php"><i class="fa fa-dashboard"></i> <span>Alumnos</span></a></li>
+
       <li class="header">GESTIONAR</li>
       <li class="treeview">
         <a href="#">

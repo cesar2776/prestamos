@@ -25,9 +25,12 @@
           </div>
       		<div class="row">
     			<div class="col-xs-4">
-          			<button type="submit" class="btn btn-primary btn-block btn-flat" name="login"><i class="fa fa-sign-in"></i> Registrarse</button>
-        		</div>
+          			<button type="submit" class="btn btn-primary btn-block btn-flat" name="login"><i class="fa fa-sign-in"></i> Iniciar</button>
+					  <button href="libsystem/index.php"  class="btn btn-primary btn-block btn-flat" ><i class="fa fa-sign-in"></i> Alumnos</button>
+
+				</div>
       		</div>
+			  
     	</form>
   	</div>
   	<?php
