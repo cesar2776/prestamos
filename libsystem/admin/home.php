@@ -8,7 +8,7 @@
   }
 ?>
 <?php include 'includes/header.php'; ?>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-blue sidebar-mini" background="images/tesh.jpg">
 <div class="wrapper">
 
   <?php include 'includes/navbar.php'; ?>

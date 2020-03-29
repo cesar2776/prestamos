@@ -22,6 +22,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   overflow-y: auto;
+  background-image: url('images/tesh.jpg');
+
 }
 /* Layout */
 .wrapper {

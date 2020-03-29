@@ -7,16 +7,17 @@
 	}
 ?>
 <?php include 'includes/header.php'; ?>
-<body class="hold-transition skin-blue layout-top-nav">
-<div class="wrapper">
+
+<body background="images/tesh.jpg" class="hold-transition skin-red layout-top-nav" >
+<div background="images/tesh.jpg"  >
 
 	<?php include 'includes/navbar.php'; ?>
 	 
-	  <div class="content-wrapper">
+	  <div >
 	    <div class="container">
 
 	      <!-- Main content -->
-	      <section class="content">
+	      <section  class="content">
 	        <div class="row">
 	        	<div class="col-sm-8 col-sm-offset-2">
 	        		<?php
@@ -90,7 +91,6 @@
 	    </div>
 	  </div>
   
-  	<?php include 'includes/footer.php'; ?>
 </div>
 
 <?php include 'includes/scripts.php'; ?>
