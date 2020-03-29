@@ -16,7 +16,7 @@
               echo "
                 <li><a href='index.php'>INICIO</a></li>
                 <li><a href='transaction.php'>TRANSACCION</a></li>
-                   <li><a href='http://www.codigofuentegratis.net/'>MAS SISTEMAS GRATIS</a></li>
+
               ";
             } 
           ?>
