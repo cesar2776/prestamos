@@ -8,7 +8,7 @@
         </button>
       </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
+      <!-- Recopilacion los enlaces de navegación, formularios y otro contenido para alternar -->
       <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
         <ul class="nav navbar-nav">
           <?php
@@ -23,7 +23,7 @@
         </ul>
       </div>
       <!-- /.navbar-collapse -->
-      <!-- Navbar Right Menu -->
+      <!-- Menú derecho de la barra de navegación -->
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <?php
