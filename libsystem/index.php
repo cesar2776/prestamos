@@ -8,7 +8,7 @@
 ?>
 <?php include 'includes/header.php'; ?>
 
-<body background="images/tesh.jpg" class="hold-transition skin-red layout-top-nav" >
+<body background="images/tesh.jpg" class="hold-transition skin-purple-light layout-top-nav" >
 <div background="images/tesh.jpg"  >
 
 	<?php include 'includes/navbar.php'; ?>
@@ -59,8 +59,8 @@
 	        				<table class="table table-bordered table-striped" id="booklist">
 			        			<thead>
 			        				<th>ISBN</th>
-			        				<th>Title</th>
-			        				<th>Author</th>
+			        				<th>Titulo</th>
+			        				<th>Autor</th>
 			        				<th>Status</th>
 			        			</thead>
 			        			<tbody>
@@ -68,7 +68,7 @@
 			        				$sql = "SELECT * FROM books $where";
 			        				$query = $conn->query($sql);
 			        				while($row = $query->fetch_assoc()){
-			        					$status = ($row['status'] == 0) ? '<span class="label label-success">available</span>' : '<span class="label label-danger">not available</span>';
+			        					$status = ($row['status'] == 0) ? '<span class="label label-success">Disponible</span>' : '<span class="label label-danger">No disponible</span>';
 			        					echo "
 			        						<tr>
 			        							

@@ -20,15 +20,15 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Book List
+        Lista de Libros
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Inicio</a></li>
-        <li>Books</li>
+        <li>Libros</li>
         <li class="active">Lista de libros</li>
       </ol>
     </section>
-    <!-- Main content -->
+    <!-- Contenido de menu -->
     <section class="content">
       <?php
         if(isset($_SESSION['error'])){
@@ -60,9 +60,9 @@
               <div class="box-tools pull-right">
                 <form class="form-inline">
                   <div class="form-group">
-                    <label>Category: </label>
+                    <label>Categoria: </label>
                     <select class="form-control input-sm" id="select_category">
-                      <option value="0">ALL</option>
+                      <option value="0">Todos</option>
                       <?php
                         $sql = "SELECT * FROM category";
                         $query = $conn->query($sql);
@@ -95,10 +95,10 @@
                     $query = $conn->query($sql);
                     while($row = $query->fetch_assoc()){
                       if($row['status']){
-                        $status = '<span class="label label-danger">borrowed</span>';
+                        $status = '<span class="label label-danger">Prestado</span>';
                       }
                       else{
-                        $status = '<span class="label label-success">available</span>';
+                        $status = '<span class="label label-success">Disponible</span>';
                       }
                       echo "
                         <tr>
@@ -109,8 +109,8 @@
                           <td>".$row['publisher']."</td>
                           <td>".$status."</td>
                           <td>
-                            <button class='btn btn-success btn-sm edit btn-flat' data-id='".$row['bookid']."'><i class='fa fa-edit'></i> Edit</button>
-                            <button class='btn btn-danger btn-sm delete btn-flat' data-id='".$row['bookid']."'><i class='fa fa-trash'></i> Delete</button>
+                            <button class='btn btn-success btn-sm edit btn-flat' data-id='".$row['bookid']."'><i class='fa fa-edit'></i> Editar</button>
+                            <button class='btn btn-danger btn-sm delete btn-flat' data-id='".$row['bookid']."'><i class='fa fa-trash'></i> Eliminar</button>
                           </td>
                         </tr>
                       ";
@@ -126,7 +126,6 @@
   </div>
     
   <?php include 'includes/footer.php'; ?>
-  <?php include 'includes/book_modal.php'; ?>
 </div>
 <?php include 'includes/scripts.php'; ?>
 <script>

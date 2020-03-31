@@ -14,7 +14,7 @@
 
 ?>
 <?php include 'includes/header.php'; ?>
-<body class="hold-transition skin-blue layout-top-nav">
+<body class="hold-transition skin-purple-light layout-top-nav">
 <div class="wrapper">
 
 	<?php include 'includes/navbar.php'; ?>
@@ -31,8 +31,8 @@
 	        				<h3 class="box-title">TRANSACCIONES</h3>
 	        				<div class="pull-right">
 	        					<select class="form-control input-sm" id="transelect">
-	        						<option value="borrow" <?php echo ($action == '') ? 'selected' : ''; ?>>Borrow</option>
-	        						<option value="return" <?php echo ($action == 'return') ? 'selected' : ''; ?>>Return</option>
+	        						<option value="borrow" <?php echo ($action == '') ? 'selected' : ''; ?>>Prestado</option>
+	        						<option value="return" <?php echo ($action == 'return') ? 'selected' : ''; ?>>Regresado</option>
 	        					</select>
 	        				</div>
 	        			</div>
