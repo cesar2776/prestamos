@@ -1,6 +1,6 @@
 <?php
 	include 'includes/session.php';
-
+// prestamos
 	if(isset($_POST['add'])){
 		$student = $_POST['student'];
 		

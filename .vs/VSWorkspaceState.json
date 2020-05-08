@@ -1,11 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\database",
     "\\libsystem",
-    "\\libsystem\\admin",
-    "\\libsystem\\images"
+    "\\libsystem\\dist",
+    "\\libsystem\\dist\\js",
+    "\\libsystem\\includes",
+    "\\libsystem\\plugins",
+    "\\libsystem\\plugins\\timepicker"
   ],
-  "SelectedNode": "\\libsystem\\admin\\book.php",
+  "SelectedNode": "\\libsystem\\plugins\\timepicker\\bootstrap-timepicker.js",
   "PreviewInSolutionExplorer": false
 }

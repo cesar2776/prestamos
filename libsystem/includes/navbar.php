@@ -2,7 +2,7 @@
   <nav class="navbar navbar-static-top">
     <div class="container">
       <div class="navbar-header">
-        <a href="#" class="navbar-brand"><b>Biblioteca</b> TESH</a>
+        <a href="#" class="navbar-brand"><b>Biblioteca</b>&nbsp;&nbsp;&nbsp; TESH</a>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
           <i class="fa fa-bars"></i>
         </button>
@@ -41,7 +41,7 @@
             }
             else{
               echo "
-                <li><a href='#login' data-toggle='modal'><i class='fa fa-sign-in'></i> LOGIN</a></li>
+                <li><a href='#login' data-toggle='modal'><i class='fa fa-sign-in'></i>&nbsp;&nbsp;&nbsp; LOGIN</a></li>
                 <li><a href='admin/index.php' data-toggle='modal'><i class='fa fa-key'></i> INGRESO DE ADMIN</a></li>
               ";
             } 

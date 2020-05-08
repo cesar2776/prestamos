@@ -8,13 +8,13 @@
 ?>
 <?php include 'includes/header.php'; ?>
 
-<body background="images/tesh.jpg" class="hold-transition skin-purple-light layout-top-nav" >
+<body background = "images/tesh.jpg" class="hold-transition skin-purple-light layout-top-nav">
 <div background="images/tesh.jpg"  >
 
 	<?php include 'includes/navbar.php'; ?>
 	 
 	  <div >
-	    <div class="container">
+	    <div width: 100%; class="container">
 
 	      <!-- Contenido del menu -->
 	      <section  class="content">

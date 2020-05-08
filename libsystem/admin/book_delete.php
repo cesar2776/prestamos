@@ -1,6 +1,6 @@
 <?php
 	include 'includes/session.php';
-
+// eliminar libros
 	if(isset($_POST['delete'])){
 		$id = $_POST['id'];
 		$sql = "DELETE FROM books WHERE id = '$id'";

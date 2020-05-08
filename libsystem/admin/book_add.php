@@ -1,6 +1,5 @@
 <?php
 	include 'includes/session.php';
-
 	if(isset($_POST['add'])){
 		$isbn = $_POST['isbn'];
 		$title = $_POST['title'];
