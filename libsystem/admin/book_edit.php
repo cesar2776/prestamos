@@ -9,7 +9,6 @@
 		$author = $_POST['author'];
 		$publisher = $_POST['publisher'];
 		$pub_date = $_POST['pub_date'];
-
 		$sql = "UPDATE books SET isbn = '$isbn', title = '$title', category_id = '$category', author = '$author', publisher = '$publisher', publish_date = '$pub_date' WHERE id = '$id'";
 		if($conn->query($sql)){
 			$_SESSION['success'] = 'Book updated successfully';

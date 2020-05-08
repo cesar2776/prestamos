@@ -6,7 +6,6 @@
     $catid = $_GET['category'];
     $where = 'WHERE books.category_id = '.$catid;
   }
-
 ?>
 <?php include 'includes/header.php'; ?>
 <body class="hold-transition skin-blue sidebar-mini">

@@ -14,7 +14,6 @@
 	else{
 		$_SESSION['error'] = 'Select item to delete first';
 	}
-
 	header('location: category.php');
 	
 ?>

@@ -3,7 +3,6 @@
 // prestamos
 	if(isset($_POST['add'])){
 		$student = $_POST['student'];
-		
 		$sql = "SELECT * FROM students WHERE student_id = '$student'";
 		$query = $conn->query($sql);
 		if($query->num_rows < 1){

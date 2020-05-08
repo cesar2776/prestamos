@@ -17,5 +17,4 @@
 	}
 
 	header('location: category.php');
-
 ?>
